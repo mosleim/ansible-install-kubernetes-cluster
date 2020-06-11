@@ -18,7 +18,7 @@ Insert all your IP Server to install to hosts file. One for kubernetes master an
 
 run ansible
 
-`cd ansible-install-kubernetes-cluster && ansible -h hosts install-kubernetes-cluster.yml`
+`cd ansible-install-kubernetes-cluster && ansible-playbook -h hosts install-kubernetes-cluster.yml`
 
 type `yes` and enter if needed. :-)
 
