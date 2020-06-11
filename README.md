@@ -27,5 +27,6 @@ wait
 test
 
 `ssh devoper@ip_master`
+
 `kubectl get nodes`
 
